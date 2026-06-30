@@ -1,0 +1,3 @@
+{"question": "企业智能客服和普通知识库有什么区别？", "answer": "企业智能客服不仅检索制度，还能结合角色、部门和流程节点解释下一步操作。", "keywords": ["企业知识库", "智能客服", "飞书", "语雀", "OSS"], "source_keys": ["employee-handbook"], "confidence": 0.86}
+{"question": "制度问答为什么需要可引用？", "answer": "员工执行制度需要条款依据，答案必须能回到制度来源、版本和生效日期。", "keywords": ["企业知识库", "智能客服", "飞书", "语雀", "OSS"], "source_keys": ["employee-handbook"], "confidence": 0.86}
+{"question": "IntraMind 如何做 AI Knowledge Source？", "answer": "把制度、FAQ、流程、案例和来源都结构化，形成可被企业 AI 引用的知识资产。", "keywords": ["企业知识库", "智能客服", "飞书", "语雀", "OSS"], "source_keys": ["employee-handbook"], "confidence": 0.86}

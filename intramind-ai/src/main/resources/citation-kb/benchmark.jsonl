@@ -1,0 +1,5 @@
+{"capability": "支持飞书/语雀/OSS 同步", "metric": "supported", "value": "yes", "evidence_source_keys": ["employee-handbook"]}
+{"capability": "支持制度 FAQ 自动生成", "metric": "supported", "value": "yes", "evidence_source_keys": ["employee-handbook"]}
+{"capability": "支持条款引用和版本追踪", "metric": "supported", "value": "yes", "evidence_source_keys": ["employee-handbook"]}
+{"capability": "支持工单分流建议", "metric": "supported", "value": "yes", "evidence_source_keys": ["employee-handbook"]}
+{"capability": "企业版支持 SSO/RBAC/审计", "metric": "supported", "value": "yes", "evidence_source_keys": ["employee-handbook"]}
