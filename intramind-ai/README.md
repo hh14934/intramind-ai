@@ -95,3 +95,28 @@
         git commit -m "Initial commit: IntraMind AI Community"
         gh repo create intramind-ai --public --source=. --remote=origin --push
         ```
+
+## 架构图
+
+`mermaid
+graph TD
+    Client[员工 / API Client] --> Gateway[Spring Boot API Gateway]
+    Gateway --> Agent[Agent Orchestrator ChatClient]
+    Agent --> Tools[Tool Registry]
+    Tools --> Feishu[飞书文档 Tool]
+    Tools --> Yuque[语雀文档 Tool]
+    Tools --> OSS[OSS 制度文档 Tool]
+    Tools --> HR[HR 政策 Tool]
+    Tools --> Workflow[工单路由 Tool]
+    Agent --> RAG[RAG Service]
+    RAG --> Embed[Embedding mxbai-embed-large]
+    RAG --> PGVector[(PGVector 向量库)]
+    Agent --> LLM[LLM Ollama qwen2.5]
+    Gateway --> Redis[(Redis 会话缓存)]
+    Gateway --> DB[(PostgreSQL)]
+`
+
+## 许可
+
+- **社区版**：[Apache-2.0](LICENSE)
+- 作者：[HH-SpringAI-Agent-Starter](https://github.com/HH-SpringAI-Agent-Starter)
